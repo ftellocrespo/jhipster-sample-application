@@ -1,0 +1,5 @@
+org.springframework.test.context.ContextCustomizerFactory = \
+    ec.com.golem.store.config.\
+    SqlTestContainersSpringContextCustomizerFactory,ec.com.golem.store.config.\
+    TestContainersSpringContextCustomizerFactory,ec.com.golem.store.config.\
+    KafkaTestContainersSpringContextCustomizerFactory
